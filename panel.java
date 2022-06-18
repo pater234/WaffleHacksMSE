@@ -5,7 +5,7 @@ public class panel extends JPanel{
     public panel()
     {
         super();
-        ImageIcon cozy = new ImageIcon("Cozy_Room.png");
+        ImageIcon cozy = new ImageIcon("Cozy_Room.PNG");
         Image orig = cozy.getImage();
         Image newImg = orig.getScaledInstance(330,430,java.awt.Image.SCALE_SMOOTH);
         cozy = new ImageIcon(newImg);
