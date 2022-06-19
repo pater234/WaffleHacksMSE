@@ -1,4 +1,3 @@
-package music;
 import com.jsyn.JSyn;
 import com.jsyn.Synthesizer;
 import com.jsyn.unitgen.LineOut;
@@ -9,7 +8,7 @@ public class jsyn {
     public static void playSound() {
         Synthesizer synth = JSyn.createSynthesizer();
         try {
-            Random rad = new Random();
+            Random rand = new Random();
             int pitch1 = rand.nextInt(1500);
             int pitch2 = rand.nextInt(1500);
             int freq1 = rand.nextInt(25);

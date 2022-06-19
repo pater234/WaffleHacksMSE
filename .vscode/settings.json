@@ -1,0 +1,6 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\5G-PRISMA-3\\Downloads\\jsyn-20171016.jar"
+    ]
+}
