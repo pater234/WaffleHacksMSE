@@ -4,7 +4,7 @@ import java.awt.*;
 public class frame extends JFrame {
     public frame()
     {
-        super("Unknown");
+        super("Neural Listener");
         
         panel pane = new panel();
         add(pane);
