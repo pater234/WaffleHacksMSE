@@ -1,14 +1,26 @@
 import javax.swing.*;
+import javax.swing.border.LineBorder;
+import javax.swing.event.MouseInputListener;
+
 import java.awt.*;
+import java.awt.event.MouseEvent;
 
 public class frame extends JFrame {
     public frame()
     {
         super("Neural Listener");
-
         panel pane = new panel();
         
-        add(createImage("computer.png", 100, 100, 200, 200));
+        
+        
+        
+        /*headphones.addMouseListener (new MouseAdapter()) {
+            public void mousePressed(MouseEvent me) { 
+                System.out.println(me); 
+            } 
+        }*/
+        
+        add(createImage("computer.png", 100, 210, 200, 200));
         
         add(pane);
         
@@ -23,5 +35,5 @@ public class frame extends JFrame {
         label.setIcon(new ImageIcon(fileName));
         label.setBounds(x, y, w, h);
         return label;
-    }
+    }    
 }
