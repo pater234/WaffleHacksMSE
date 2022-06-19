@@ -6,9 +6,11 @@ public class frame extends JFrame {
     {
         super("Unknown");
         
-        getContentPane().setBackground(new Color(181, 101, 29));
+        panel pane = new panel();
+        add(pane);
         
         setSize(350, 475);
+        setResizable(false);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setVisible(true);
     }
